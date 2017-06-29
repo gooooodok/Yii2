@@ -13,3 +13,9 @@ foreach ($cars as $car) {
 }
 
 ?>
+
+<hr>
+
+<!-- Получаем даные от пользователя через строку запроса - http://localhost/web/index.php?r=page%2Fpage&name=Victor -->
+
+Driver: <?=$name?>
