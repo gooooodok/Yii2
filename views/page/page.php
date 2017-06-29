@@ -23,5 +23,5 @@ Driver: <?=$name?>
 <hr>
 
 <?php 
-	\app\controllers\globalDebug($cars);
+	debug($cars);
 ?>
