@@ -2,9 +2,7 @@
 
 namespace app\controllers;
 
-use yii\web\Controller;
-
-class PageController extends Controller
+class PageController extends AppController
 {
 	public function actionPage($name = null)
     {

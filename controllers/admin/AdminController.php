@@ -4,7 +4,7 @@ namespace app\controllers\admin;
 
 use yii\web\controller;
 
-class AdminController extends controller
+class AdminController extends AppController
 {
 	public function actionIndex()
 	{
