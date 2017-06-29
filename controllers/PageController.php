@@ -17,4 +17,16 @@ class PageController extends Controller
         //return $this->render('page', ['cars' => $cars]);
         return $this->render('page', compact('cars', 'name'));
     }
+
+
+
+    public function actionCarPage()
+    {
+    	/* 
+    		Если нужно назвать екшин несколькими словами, вызов шаблона будет таким http://localhost/web/index.php?r=page/car-page 
+    	*/
+    	return $this->render('car-page');
+    } 
 }
+
+?>
