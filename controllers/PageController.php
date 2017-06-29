@@ -8,6 +8,9 @@ class PageController extends Controller
 {
 	public function actionPage()
     {
-        return $this->render('page');
+        $cars = ['Chevrolet Lacetti', 'Ford Focus', 'Toyota Corolla'];
+        
+        //return $this->render('page', ['cars' => $cars]);
+        return $this->render('page', compact('cars'));
     }
 }
