@@ -20,7 +20,8 @@ AppAsset::register($this);
 </head>
 <body>
 	<?php $this->beginBody() ?>
-	<h1>Hello, Basic</h1>
+	
+	<?= $content ?>
 
 	<?php $this->endBody() ?>
 </body>
