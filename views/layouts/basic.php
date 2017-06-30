@@ -5,8 +5,6 @@
 	<title>Document</title>
 </head>
 <body>
-
 	<h1>Hello, Basic</h1>
-	
 </body>
 </html>
