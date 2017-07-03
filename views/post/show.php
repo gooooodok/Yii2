@@ -1,6 +1,8 @@
 <?php
 
 //$this->title = 'Одна статья';
+//$this->registerMetaTag(['name' => 'keywords', 'content' => 'ключевые слова']);
+//$this->registerMetaTag(['name' => 'description', 'content' => 'описание страницы']);
 
 ?>
 
