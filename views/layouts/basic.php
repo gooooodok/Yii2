@@ -15,7 +15,7 @@ AppAsset::register($this);
 
 	<!-- Делаем адаптивный шаблон -->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-
+	<?= Html::csrfMetaTags() ?>
 	<title>Document</title>
 	<?php $this->head() ?>
 </head>
